@@ -15,4 +15,4 @@ This repository contains a schematic and PCB layout for a dutch ESMR/DSMR smart 
 
 For code to run on the wemos D1 mini ESP8266 I'll refer you to the following links:
 
-[ESPhome  CustomP1UartComponent by nldroid](https://github.com/nldroid/CustomP1UartComponent "CustomP1UartComponent by nldroid") 
+[ESPhome  CustomP1UartComponent ](https://github.com/nldroid/CustomP1UartComponent "CustomP1UartComponent by nldroid") by nldroid. This uses the [ESPhome] (https://esphome.io/index.html) framework. I have not tested this yet myself but likely will in the near future, as I am planning to start using more ESPhome and also want to combine this firmware with the pulse reader fo the water meter.
