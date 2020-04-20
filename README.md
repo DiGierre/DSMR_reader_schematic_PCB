@@ -15,6 +15,8 @@ This repository contains a schematic and PCB layout for a dutch ESMR/DSMR smart 
 
 ![alt text](DSMR5_reader_PCB_top.PNG "Smart meter P1 port reader PCB top side")
 
+The reason I decided to design the PCB was (1) I wnated to use a Wemos and i needed to hook that up to the rest of the circuit shown above and I really hate wiring protytype PCBs - lots of work and always full of errors that are difficult to resolve. Also (2) that I did not see any other projects at that time that had a PCB using something like a WEMOS or did not use the data request pin or could not be powered from the smart meter. And (3) I wanted something more generic so that I could hook up more sensors or buttons and in any case a circuit for reading my water meter using a pulse sensor of some kind or even use it for something completely different beyond the smart meter.
+
 The schematic as shown above only shows the parts relevant for the smart meter reader. It consists of a serial port convertor, data request circuit and the wemos. The circuit is essentially designed to work for ESMR5 meters. I have a Sagemcom XS210 which is ESMR5. It may wotk for other smart meters but you may have to tweak. Some older DSMR/ESMR meters do not have a power supply and/or can only deliver less power, some do not have the inverted serial port or may have outputs that are not isolated through and opto-coupler.
 
 Usage:
@@ -23,6 +25,7 @@ The circuit can be fed from the 5V in the smart meter or by an external power su
 The smart meter can deliver 250 mA and this will not be enough for the ESP during peak load. Hence I put a fairly large capacitor on the input, C2. I am using a low ESR elco (low internal resistance) of 1500uF. Do note that I have read reports that some meter deal poorly with the large elco as it has a high peak current power up and the current protection of the meter kicks in and for some meters does not recover. 
 
 By default the circuit will use the data request pin via the opcocoupler PH11 circuit, which converts the 3v3 from GPIO D7 to 5V using the smart meter's 5V. When high (5V on Data request), the meter sends telegrams via the serial port each second until low again. If you don't want to use this then short-circuit JP2 (put a cap on the pins or simply solder a wire). I don't recommend this since it may load the ESP as it needs to handle serial traffic each second and particularly if you also want to have it do other stuff this may cause instability.
+
 
 
 For code to run on the wemos D1 mini ESP8266 I'll refer you to the following links:
