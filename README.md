@@ -1,8 +1,8 @@
 # DSMR_reader_schematic_PCB
-![alt text][logo]
 
 Note: this is my first repository on github so please bare with me....more details to be added later
 
+![alt text][logo]
 [logo]: Schematic_DSMR_reader_only_PCB_v1.0.png
 
 This repository contains a schematic and PCB layout for a dutch ESMR/DSMR smart meter reader via the P1 port. Key features are:
@@ -13,6 +13,6 @@ This repository contains a schematic and PCB layout for a dutch ESMR/DSMR smart 
 - You can also read a water meter through an inductive pulse sensor. The PCB also has room for a small SX1308 boost DC-DC convertor as some of these need a voltage higher than 5V
 - While i was at it: connections to add other switches, buttons and sensors such as a PIR, 1-wire, serial, I2C. So in fact you could even use the PCB for completely different purpose than smart meter reading....
 
-For code to run on the wemos D1 mini ESP8266 I'll refer you to the follwoing links:
+For code to run on the wemos D1 mini ESP8266 I'll refer you to the following links:
 
-[ESPhome CustomP1UartComponent by nldroid](https://github.com/nldroid/CustomP1UartComponent "CustomP1UartComponent by nldroid") 
+[ESPhome  CustomP1UartComponent by nldroid](https://github.com/nldroid/CustomP1UartComponent "CustomP1UartComponent by nldroid") 
