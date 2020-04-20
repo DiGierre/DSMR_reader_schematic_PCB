@@ -8,3 +8,7 @@ This repository contains a schematic and PCB layout for a dutch ESMR/DSMR smart 
 - While i was at it: connections to add other switches, buttons and sensors such as a PIR, 1-wire, serial, I2C. So in fact you could even use the PCB for completely different purpose than smart meter reading....
 
 Note: this is my first repository on github so pelase bare with me....more details to be added later
+
+![alt text][logo]
+
+[logo]: Schematic_DSMR_reader_only_PCB_v1.0.png
