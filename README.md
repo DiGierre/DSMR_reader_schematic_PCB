@@ -40,7 +40,7 @@ For code to run on the wemos D1 mini ESP8266 I'll refer you to the following lin
 Another build for P1 smart meter readings is from [this](https://willem.aandewiel.nl/index.php/2019/04/09/dsmr-logger-v4-slimme-meter-uitlezer/) site from Willem Aandewiel (warning: Dutch only). The code and more is also on his [Github](https://github.com/mrWheel/DSMRloggerWS). I'm current running this firmware (version 1.0.4) and it's running quite stable since November last year. In any case proof that the PCB seems working fine. I have a FSMR5 meter and I'm powering the PCB from the 5V inside the smart meter (Did you know by the way this is free? - Yes really, the built-in smart meter power supply is not metered and delivers 5V / 250mA)
 
 Here you can see the PCB connected to my smart meter. Still 'bare naked', no housing yet...
-![alt text](files/smartmeter_reader_s.jpg "Smart meter P1 port reader PCB connected to Sagemcom XS210")
+![alt text](files/smartmeter_reader_s2.jpg "Smart meter P1 port reader PCB connected to Sagemcom XS210")
 
 
 
