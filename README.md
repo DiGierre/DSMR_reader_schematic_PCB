@@ -13,7 +13,7 @@ This repository contains a schematic and PCB layout for a dutch ESMR/DSMR smart 
 - While i was at it: connections to add other switches, buttons and sensors such as a PIR, 1-wire, serial, I2C. So in fact you could even use the PCB for completely different purpose than smart meter reading....
 
 
-![alt text](DSMR5_reader_PCB_top.PNG "Smart meter P1 port reader PCB top side")
+![alt text](files/DSMR5_reader_PCB_top_a.png "Smart meter P1 port reader PCB top side")
 
 The reason I decided to design the PCB was (1) I wnated to use a Wemos and i needed to hook that up to the rest of the circuit shown above and I really hate wiring protytype PCBs - lots of work and always full of errors that are difficult to resolve. Also (2) that I did not see any other projects at that time that had a PCB using something like a WEMOS or did not use the data request pin or could not be powered from the smart meter. And (3) I wanted something more generic so that I could hook up more sensors or buttons and in any case a circuit for reading my water meter using a pulse sensor of some kind or even use it for something completely different beyond the smart meter.
 
