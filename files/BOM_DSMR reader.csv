@@ -1,0 +1,38 @@
+Name;Designator;Footprint;Quantity;comments
+Smart meter circuitry;;;;
+Serial;P6;HDR-4X1/2.54;1;4-pin 2.54mm header
+CAP 1500UF RAD-AX;C2;CAP 1500UF RAD-AX;1;Elco, 1500uF radial but mounted axial
+BC547B;Q1;TO-92(TO-92-3);1;BC547B transistor
+RJ-11 P1 interface;RJ1;RJ11-TH_6PIN_DS1133-S60APS;1;Rj12 6P6C PCB mount 
+PC817C;PH1;PC817C;1;PC817C optocoupler
+10k;R3,R4;AXIAL-0.4;2;resistor 1/4W
+220;R1;AXIAL-0.4;1;resistor 1/4W
+100E;R8,R2;AXIAL-0.4;2;resistor 1/4W
+DC in (5V);CN1;SCREW_TERMINAL_5.08MM_2P_ANGLED;1;SCREW TERMINAL 
+DC select;JP1;SCREW_TERMINAL_5.08MM_2P_ANGLED;1;do not place terminal, just connect pads via wire if needed
+WEMOS D1 MINI;U1;WEMOS D1;1;WEMOS D1 mini
+100nF;C4,C5,C3;CK22PF 5 NPO 500V STD;3;100 nF ceramic capacitor
+Data_req jumper;JP2;HDR-2X1/2.54;1;2-pin 2.54mm header
+Other parts:;;;;
+I2C;P7;HDR-4X1/2.54;1;4-pin 2.54mm header
+I2C 2;P8;HDR-4X1/2.54;1;4-pin 2.54mm header
+BC547B;Q2;TO-92(TO-92-3);2;BC547B transistor
+Watermeter;P1;HDR-3X1/2.54;1;3-pin 2.54mm header
+One wire;P5;HDR-3X1/2.54;1;3-pin 2.54mm header
+Analog in;P10;HDR-3X1/2.54;1;3-pin 2.54mm header
+PIR;P4;HDR-3X1/2.54;1;3-pin 2.54mm header
+OUT1;P3;HDR-3X1/2.54;1;3-pin 2.54mm header
+PC817C;PH2,PH3;PC817C;3;PC817C optocoupler
+SX1308;U4;SX1308;1;SX1308 boost PCB
+10k;R12;AXIAL-0.4;3;resistor 1/4W
+1k;R5,R13;AXIAL-0.4;2;resistor 1/4W
+4k7;R7,R6;AXIAL-0.4;2;resistor 1/4W
+2k2;R8;AXIAL-0.4;1;resistor 1/4W, 2k2 only if in combination with R9, else 100 Ohm
+3k3;R9;AXIAL-0.4;1;resistor 1/4W, only needed if input level is 5V, then this forms a resistor divider network together with R8
+xxx k;R11;AXIAL-0.4;1;resistor 1/4W
+12k;R10,R14;AXIAL-0.4;2;resistor 1/4W
+1p;C1;RAD-0.1;1;Not needed - it can be placed to filter high frequency interference if needed
+100nF;C4,C5,C3;CK22PF 5 NPO 500V STD;3;100 nF ceramic capacitor
+SW1;P2;HDR-2X1/2.54;1;2-pin 2.54mm header
+SW2;P9;HDR-2X1/2.54;1;2-pin 2.54mm header
+GPC1710YB-5V;BUZZER1;BUZZER-R8.6-2P-10.0MM;1;active buzzer
