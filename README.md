@@ -12,6 +12,8 @@ This repository contains a schematic and PCB layout for a dutch ESMR/DSMR smart 
 - You can also read a water meter through an inductive pulse sensor. The PCB also has room for a small SX1308 boost DC-DC convertor as some of these need a voltage higher than 5V
 - While i was at it: connections to add other switches, buttons and sensors such as a PIR, 1-wire, serial, I2C. So in fact you could even use the PCB for completely different purpose than smart meter reading....
 
+![alt text](DSMR5_reader_PCB_top.PNG "Smart meter P1 port reader PCB top side")
+
 
 For code to run on the wemos D1 mini ESP8266 I'll refer you to the following links:
 
