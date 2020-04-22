@@ -1,7 +1,5 @@
 # DSMR_reader_schematic_PCB
 
-Note: this is my first repository on github so please bare with me....more details to be added later
-
 ![alt text](files/Schematic_DSMR_reader_only_PCB_v1.0.png "Smart meter P1 port reader schematic")
 
 This repository contains a schematic and PCB layout for a dutch ESMR/DSMR smart meter reader via the P1 port. Key features are:
